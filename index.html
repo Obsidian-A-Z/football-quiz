@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <h1>⚽ Football Quiz</h1>
+
+        <!-- Category Screen -->
+        <div id="category-screen">
+
+            <p>Choose a category</p>
+
+            <div id="categories">
+
+                <button class="category-btn" data-category="worldcup">
+                    🌍 FIFA World Cup
+                </button>
+
+                <button class="category-btn" data-category="clubs">
+                    🏆 Football Clubs
+                </button>
+
+                <button class="category-btn" data-category="players">
+                    👤 Football Players
+                </button>
+
+                <button class="category-btn" data-category="general">
+                    ⚽ General Football
+                </button>
+
+                <button class="category-btn" data-category="history">
+                    🏟️ Football History & Records
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen">
+<h2 id="category-title"></h2>
+            <p id="question-number"></p>
+            <p id="timer"></p>
+
+            <p id="question">Question will appear here</p>
+
+            <div id="answers">
+                <button>Brazil</button>
+                <button>Argentina</button>
+                <button>France</button>
+                <button>Germany</button>
+            </div>
+
+            <p id="result"></p>
+
+            <button id="next-btn">Next</button>
+            <button id="restart-btn">Play Again</button>
+            <button id="category-btn">Back to Categories</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
