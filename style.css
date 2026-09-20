@@ -119,6 +119,7 @@ h1 {
         padding: 10px 25px;
     }
 }
+
 #quiz-screen {
     display: none;
 }
@@ -155,6 +156,7 @@ h1 {
 .category-btn:active {
     transform: translateY(0);
 }
+
 #category-btn {
     margin-top: 12px;
     background-color: white;
@@ -169,19 +171,14 @@ h1 {
 #category-btn:hover {
     background-color: #eeeeee;
 }
+
 #category-title {
     font-size: 22px;
     margin: 10px 0;
 }
+
 #timer {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
-}
-.category-btn {
-    transition: all 0.2s ease;
-}
-
-.category-btn:hover {
-    transform: scale(1.02);
 }
